@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "24 hour Open",
+    "subtitle": "We are open for 24 hours providing all the needs to our customer at anytime.",
+    "image": "/images/services/24hours.png",
+    "alt": "24hours",
+    "direction": "row-reverse"
+  },
+  {
+    "id": 2,
+    "title": "Free & Fast Home Delivery",
+    "subtitle": "Get all your products deleiverd at your home fast & free at just one call.",
+    "image": "/images/services/fast.png",
+    "alt": "Free&Fast Delivery",
+    "direction": "row"
+  },
+  {
+    "id": 3,
+    "title": "All Branded Products.",
+    "subtitle": "We bring you the most trusted and legit products from the market as well as from other couuntries.",
+    "image": "/images/services/verified.png",
+    "alt": "Verified Products",
+    "direction": "row-reverse"
+  }
+]
