@@ -1,0 +1,16 @@
+[
+  {"id": 1,  "image": "/images/brands/carefree_logo.png"},
+  {"id": 2,  "image": "/images/brands/colgate_logo.png"},
+  {"id": 3,  "image": "/images/brands/dabur_logo.png"},
+  {"id": 4,  "image": "/images/brands/dettol_logo.png"},
+  {"id": 5,  "image": "/images/brands/gillette_logo.png"},
+  {"id": 6,  "image": "/images/brands/johnson-johnson_logo.png"},
+  {"id": 7,  "image": "/images/brands/lakme_logo.png"},
+  {"id": 8,  "image": "/images/brands/loreal_logo.png"},
+  {"id": 9,  "image": "/images/brands/maybelline_logo.png"},
+  {"id": 10, "image": "/images/brands/nivea_logo.png"},
+  {"id": 11, "image": "/images/brands/olay_logo.png"},
+  {"id": 12, "image": "/images/brands/patanjali_logo.png"},
+  {"id": 13, "image": "/images/brands/vaseline_logo.png"},
+  {"id": 14, "image": "/images/brands/veet_logo.png"}
+]

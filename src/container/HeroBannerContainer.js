@@ -5,7 +5,7 @@ function HeroBannerContainer() {
   return (
     <div>
       <HeroBanner>
-        <HeroBanner.Title>GEt all Medicines and Cosmetics</HeroBanner.Title>
+        <HeroBanner.Title>Get all Medicines and Cosmetics</HeroBanner.Title>
       </HeroBanner>
     </div>
   )
