@@ -41,9 +41,10 @@ margin: 10px 0px;
 `;
 
 export const Text = styled.p`
-font-size: 24px;
+font-size: 18px;
 margin: 0;
 margin-bottom: 10px;
+font-family: 'Lora', serif;
 
 
 @media (max-width: 768px) {

@@ -29,6 +29,7 @@ export const Icon = styled.img`
 `;
 
 export const List = styled.ul`
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -38,7 +39,6 @@ export const List = styled.ul`
   &:last-of-type {
     margin-right: 20px;
   }
-
   `;
 
 export const Text = styled.p`
@@ -46,7 +46,7 @@ export const Text = styled.p`
   padding: 0 5px;
   cursor: pointer;
   margin: 0 25px;
-
+  background: ${({ active }) => active ? "#f9f9f9" : null}
   &:hover {
     border-bottom: 1px solid white;
   }
@@ -54,6 +54,32 @@ export const Text = styled.p`
     display: none;
   }
 `;
+
+export const SubMenu = styled.div`
+position: absolute;
+height: 100px;
+color: black;
+z-index: 1100;
+left: 0;
+top: 40px;
+padding: 10px;
+display: flex;
+flex-direction: column;
+background: #f9f9f9;
+transition: all linear 0.3s;
+
+ p {
+  font-weight: 400;
+  margin: 10px 25px;
+}
+`;
+
+
+
+
+
+
+
 
 
 export const Item = styled.li`

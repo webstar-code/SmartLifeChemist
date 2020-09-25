@@ -22,7 +22,7 @@ text-align: center;
 
 export const Item = styled.div`
 display: flex;
-padding: 50px 5%;
+padding: 20px 5%;
 
 @media (max-width) {
   flex-direction: column;
@@ -69,9 +69,10 @@ margin-bottom: 20px;
 `;
 
 export const Subtitle = styled.p`
-font-size: 24px;
+font-size: 18px;
 margin: 0;
-font-family: serif;
+font-family: 'Lora', serif;
+
 @media (max-width: 768px) {
   font-size: 16px;
 }

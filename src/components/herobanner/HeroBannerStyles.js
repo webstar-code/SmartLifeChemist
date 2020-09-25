@@ -43,8 +43,9 @@ z-index: 100;
 font-size: 84px;
 position: absolute;
 top: 50px;
-margin-left: 50px;
+max-width: 80%;
 text-align: left;
+text-shadow: 2px 2px 0px beige;
 
 @media (max-width: 768px) {
   font-size: 50px

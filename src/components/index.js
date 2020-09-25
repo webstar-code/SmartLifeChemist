@@ -4,4 +4,6 @@ export { default as HeroBanner } from './herobanner/HeroBanner';
 export { default as Service } from './services/Service';
 export { default as Brands } from './brands/Brands';
 export { default as Contact } from './contact/Contact';
+export { default as Gallery } from './gallery/Gallery';
+
 

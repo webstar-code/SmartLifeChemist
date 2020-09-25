@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Icon, Title, List, Item, Link, Text } from './NavbarStyles'
+import { Container, Icon, Title, List, Item, Link, Text, SubMenu } from './NavbarStyles'
 
 function Navbar({ children, ...restProps }) {
   return (
@@ -26,5 +26,8 @@ Navbar.Link = function ({ children, ...restProps }) {
 }
 Navbar.Text = function ({ children, ...restProps }) {
   return <Text {...restProps}>{children}</Text>
+}
+Navbar.SubMenu = function ({ children, ...restProps }) {
+  return <SubMenu {...restProps}>{children}</SubMenu>
 }
 export default Navbar
