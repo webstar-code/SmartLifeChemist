@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Header, Title, Pane, Text, Item, Icon, Map, Details } from './ContactStyles'
+import { Container, Header, Title, Pane, Text, Item, Icon, Map, Details, Link } from './ContactStyles'
 
 function Contact({ children, ...restProps }) {
   return (
@@ -32,6 +32,9 @@ Contact.Icon = function ({ children, ...restProps }) {
 }
 Contact.Map = function ({ children, ...restProps }) {
   return <Map {...restProps}>{children}</Map>
+}
+Contact.Link = function ({ children, ...restProps }) {
+  return <Link {...restProps}>{children}</Link>
 }
 
 

@@ -36,9 +36,7 @@ export const List = styled.ul`
   margin: 0;
   margin-left: auto;
   padding: 0;
-  &:last-of-type {
-    margin-right: 20px;
-  }
+
   `;
 
 export const Text = styled.p`

@@ -5,6 +5,7 @@ display: flex;
 background: black;
 color: white;
 padding: 50px 25px;
+justify-content: center;
 `;
 
 export const Header = styled.h1`
@@ -27,7 +28,8 @@ justify-content: center;
 
 
 @media (max-width: 768px) {
-  width: 80%;
+  width: 100%;
+  display: ${({display}) => display}
 }
 `;
 
@@ -76,12 +78,13 @@ margin-bottom: 10px;
 export const Map = styled.iframe`
 width: ${({width}) => width};
 height: ${({height}) => height};
-
-
 @media (max-width: 768px) {
   display: none;
 }
+`;
 
+export const Link = styled.a`
+cursor: pointer;
 
 `;
 

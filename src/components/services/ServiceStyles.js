@@ -42,6 +42,8 @@ align-items: center;
   flex-direction: column;
   background: linear-gradient(180deg, rgba(129, 241, 111, 0.51) 0%, rgba(196, 196, 196, 0) 100%);
   border-radius: 48px;
+padding-bottom: 100px;
+
 }
 
 `;

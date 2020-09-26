@@ -5,7 +5,7 @@ export const Container = styled.div`
 display: flex;
 justify-content: center;
 align-items: center;
-width: 80%;
+width: 100%;
 height: 300px;
 margin: 100px auto;
 
@@ -13,8 +13,8 @@ margin: 100px auto;
 
 export const Icon = styled.img`
 position: absolute;
-left: ${({left}) => left};
-right: ${({right}) => right};
+left: ${({ left }) => left};
+right: ${({ right }) => right};
 cursor: pointer;
 padding: 10px;
 height: 70px;
@@ -37,6 +37,10 @@ height: 100%;
 -webkit-animation-duration: 1.5s;
 animation-name: fade;
 animation-duration: 1.5s;
+}
+@media (max-width: 768px){
+width: 100%;
+
 }
 
 @-webkit-keyframes fade {
